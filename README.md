@@ -1,10 +1,10 @@
-# ☁️ Cloud-Based File Storage System (AWS)
+# Cloud-Based File Storage System (AWS)
 
 A cloud-based file storage web application built using Flask and AWS services that allows users to upload, view, download, and delete files securely from the cloud.
 
 This project demonstrates real-world cloud concepts including compute, storage, IAM-based security, and deployment on AWS EC2 with a clean dashboard-style UI.
 
-## 🚀 Features
+## Features
 
 - Upload files to cloud storage (Amazon S3)
 - View stored files with file name, file type, and file size
@@ -13,7 +13,7 @@ This project demonstrates real-world cloud concepts including compute, storage, 
 - Clean and responsive dashboard UI
 - Secure access using IAM Role (no hardcoded AWS credentials)
 
-## 🏗️ System Architecture
+## System Architecture
 
 User → Browser → EC2 (Flask App) → IAM Role → Amazon S3
 
@@ -23,7 +23,7 @@ User → Browser → EC2 (Flask App) → IAM Role → Amazon S3
 - An IAM Role attached to EC2 securely grants access to S3
 - No AWS access keys are stored in the code
 
-## 🔁 Workflow Overview
+## Workflow Overview
 
 1. User performs an action from the web UI (upload, view, download, delete)
 2. Request is sent to the Flask application on EC2
@@ -32,7 +32,7 @@ User → Browser → EC2 (Flask App) → IAM Role → Amazon S3
 5. Amazon S3 returns the response
 6. Flask sends the updated response back to the browser
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Frontend: HTML, CSS
 - Backend: Python, Flask
@@ -42,7 +42,7 @@ User → Browser → EC2 (Flask App) → IAM Role → Amazon S3
 - Security: IAM Role
 - SDK: boto3
 
-## 📂 Project Structure
+## Project Structure
 
 cloud-file-storage/
 ├── app.py
@@ -53,7 +53,7 @@ cloud-file-storage/
 └── templates/
     └── index.html
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 1. Clone the repository  
 git clone https://github.com/Manasvi154/Cloud-File-Storage-System.git  
@@ -72,7 +72,7 @@ python app.py
 
 Application runs on http://localhost:5000
 
-## ☁️ AWS Configuration
+## AWS Configuration
 
 - EC2 instance has an IAM Role attached
 - IAM Role permissions include:
@@ -82,7 +82,7 @@ Application runs on http://localhost:5000
   - Delete files
 - This avoids storing AWS credentials in code
 
-## ✅ Best Practices Followed
+## Best Practices Followed
 
 - IAM Role–based authentication
 - No AWS secrets in code
@@ -90,7 +90,7 @@ Application runs on http://localhost:5000
 - Clean separation of frontend and backend
 - Cost-aware cloud usage
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - User authentication
 - File search
@@ -98,7 +98,7 @@ Application runs on http://localhost:5000
 - File sharing
 - Storage analytics
 
-## 👩‍💻 Author
+## Author
 
 Manasvi Pawar  
 Cloud & Data Enthusiast
