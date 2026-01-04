@@ -43,7 +43,7 @@ User → Browser → EC2 (Flask App) → IAM Role → Amazon S3
 - SDK: boto3
 
 ## Project Structure
-
+<pre>
 cloud-file-storage/
 ├── app.py
 ├── requirements.txt
@@ -52,6 +52,7 @@ cloud-file-storage/
 │   └── style.css
 └── templates/
     └── index.html
+</pre>
 
 ## Setup & Run
 
