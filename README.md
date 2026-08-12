@@ -98,8 +98,3 @@ Application runs on http://localhost:5000
 - Folder support
 - File sharing
 - Storage analytics
-
-## Author
-
-Manasvi Pawar  
-Cloud & Data Enthusiast
